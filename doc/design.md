@@ -32,6 +32,8 @@
 - Becky!テンプレートのマクロシンボルを利用できる
   - 例: `%s`は参照メールのSubjectフィールドを示す
 
+<img width="375" height="233" alt="表示項目の変更" src="https://github.com/user-attachments/assets/382c9756-b37b-401c-aaca-1157972273d7" />
+
 - Becky!の現在の表示項目をそのまま表示できる（※必須ではない）
 - 区切り文字列を指定できる
   - デフォルトは `\t`
@@ -59,8 +61,10 @@
 ### 使用手順
 
 1. メールを選択
+  * <img width="1035" height="149" alt="使用時のイメージ_メールを選択" src="https://github.com/user-attachments/assets/44178c59-993a-440a-aaf4-d3fda592675e" />
 2. キー `Ctrl + J` を入力
 3. メモ帳へ貼り付け
+  * <img width="934" height="230" alt="使用時のイメージ_メモ帳へ貼り付け" src="https://github.com/user-attachments/assets/4a15df41-337c-4d9f-8f73-4988c0502bcf" />
 
 **貼り付け結果例**:
 ```
@@ -77,12 +81,19 @@ Logwatch for chowder.zuppa.mine.nu (Linux)  logwatch@zuppa.mine.nu  2012/06/03 0
 - エージェント機能の次に項目を追加
 - 項目を実行すると本機能を実行
 
-**メニュー項目**: `□ リストビューの項目をコピー Ctrl+J`
+<img width="303" height="470" alt="編集メニュー項目" src="https://github.com/user-attachments/assets/852ec32f-9c55-405e-9262-1b09d1e72773" />
+
+以下を追加
+
+`□ リストビューの項目をコピー Ctrl+J`
 
 ### コピーフォーマットの設定画面の表示
 
 - `ツール(T)` → `プラグインの設定(U)` → `BkListViewExtension`を追加
 - 項目を実行すると設定画面を新規に開く
+
+<img width="397" height="352" alt="ツールメニュー項目" src="https://github.com/user-attachments/assets/47e332f7-3f7f-4fda-bc42-854d29237da0" />
+
 
 ### コピーフォーマットの設定画面
 
@@ -401,5 +412,6 @@ classDiagram
 - メールの文字コードからUnicodeへ変換する機能を実装洗い出しに追記
 
 ### 2013/05/03
+
 
 - クラス図を追加
